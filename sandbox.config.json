@@ -1,5 +1,7 @@
 {
   "infiniteLoopProtection": true,
   "template": "node",
-  "node": "12"
+  "container": {
+    "node": "12"
+  }
 }
