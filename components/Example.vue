@@ -30,6 +30,7 @@ export default {
   background: #35495e;
   border-radius: 4px;
   font-size: 16px;
+  text-align: center;
 }
 .title {
   margin-bottom: 10px;

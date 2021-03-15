@@ -38,10 +38,10 @@ export default {
             path: '@/components/Example',
             options: {
               props: {
-                title: 'Prop. Example Title'
+                title: 'Customizable title'
               }
             },
-            slotContent: 'Slot Example Content'
+            slotContent: 'Customizable slot content'
           }
         ]
       }
