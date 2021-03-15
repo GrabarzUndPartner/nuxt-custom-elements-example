@@ -100,7 +100,7 @@ jobs:
 
   deploy-ghpages:
     name: Deploy (GH-Pages)
-    needs: [build]
+    needs: build
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

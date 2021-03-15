@@ -1,4 +1,5 @@
 {
   "infiniteLoopProtection": true,
-  "template": "node"
+  "template": "node",
+  "node": "12"
 }
