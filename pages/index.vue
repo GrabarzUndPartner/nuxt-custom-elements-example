@@ -8,6 +8,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
+          title="Documentation"
         >
           Documentation
         </a>
@@ -16,8 +17,18 @@
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
+          title="GitHub (Nuxt Custom-Elements)"
         >
-          GitHub
+          GitHub (Nuxt Custom-Elements)
+        </a>
+        <a
+          href="https://github.com/GrabarzUndPartner/nuxt-custom-elements-example"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+          title="GitHub (Example)"
+        >
+          GitHub (Example)
         </a>
       </div>
       <fieldset>
