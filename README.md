@@ -3,7 +3,8 @@
 This is an example project for using [Nuxt Custom-Elements](https://github.com/GrabarzUndPartner/nuxt-custom-elements) with [Nuxt.js](https://nuxtjs.org). Instructions for this example can be found in the [Usage section of the Nuxt Custom-Elements docs](https://nuxt-custom-elements.grabarzundpartner.dev/usage/).
 
 - [👁 &nbsp;&nbsp;**Preview**](https://grabarzundpartner.github.io/nuxt-custom-elements-example/)
-- [📖 &nbsp;&nbsp;**Documentation**](https://nuxt-speedkit.grabarzundpartner.dev/)
+- [📖 &nbsp;&nbsp;**Documentation**](http://nuxt-custom-elements.grabarzundpartner.dev/)
+
 ## Build Setup
 
 ```bash
