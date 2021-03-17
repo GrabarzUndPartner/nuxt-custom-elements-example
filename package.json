@@ -6,12 +6,29 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "test": "npm run lint",
+    "lint": "npm run lint:es && npm run lint:css",
+    "lint:es": "eslint --ext .js,.vue .",
+    "lint:css": "stylelint \"examples/**/*.vue\" \"examples/**/*.css\""
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^1.11.3",
     "core-js": "3.9.1",
     "nuxt": "2.15.3",
-    "nuxt-custom-elements": "1.6.2"
+    "nuxt-custom-elements": "1.6.2",
+    "vue-meta": "^2.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "stylelint": "^13.12.0",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard": "^21.0.0"
+  }
 }

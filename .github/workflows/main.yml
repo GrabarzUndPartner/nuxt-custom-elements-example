@@ -34,7 +34,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: Test
-        run: npm run build
+        run: npm run test
 
   semantic-version:
     name: Semantic Release
@@ -87,11 +87,17 @@ jobs:
           key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/package-lock.json')) }}
       - name: Build
         run: |
-          npm run generate
+          npm run generate -- examples/default
           touch dist/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/
           DIST_PATH: dist
+      - name: BuildVuetify
+        run: |
+          npm run generate -- examples/vuetify
+        env:
+          BASE_URL: /nuxt-custom-elements-example/vuetify/
+          DIST_PATH: dist/vuetify
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:

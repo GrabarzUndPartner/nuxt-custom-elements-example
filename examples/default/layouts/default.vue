@@ -31,6 +31,11 @@ html {
   margin: 0;
 }
 
+h2 {
+  margin: 20px 0;
+  color: #3b8070;
+}
+
 .button--green {
   display: inline-block;
   padding: 10px 30px;

@@ -12,14 +12,15 @@ This is an example project for using [Nuxt Custom-Elements](https://github.com/G
 $ npm install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+# start default example
+$ npm run dev -- examples/default
 
 # build for production and launch server
-$ npm run build
-$ npm run start
+$ npm run build -- examples/default
+$ npm run start -- examples/default
 
 # generate static project
-$ npm run generate
+$ npm run generate -- examples/default
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org) and [Nuxt Custom-Elements docs](https://github.com/GrabarzUndPartner/nuxt-custom-elements).

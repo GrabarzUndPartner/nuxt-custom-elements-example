@@ -1,11 +1,13 @@
-import pkg from './package.json';
+import pkg from '../../package.json';
+import vuetifyOptions from './plugins/options';
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  srcDir: __dirname,
 
   generate: {
-    dir: process.env.DIST_PATH
+    dir: process.env.DIST_PATH || '../../dist'
   },
 
   router: {
@@ -34,23 +36,26 @@ export default {
         name: 'Example',
         tags: [
           {
-            name: 'CustomElementExample',
-            path: '@/components/Example',
-            options: {
-              props: {
-                title: 'Customizable title'
-              }
-            },
-            slotContent: 'Customizable slot content'
+            name: 'CustomElementVuetify',
+            path: '@/entries/Vuetify'
           }
         ]
       }
     ]
   },
 
+  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/stylelint-module',
+
+    // Vuetify with options
+    ['@nuxtjs/vuetify', vuetifyOptions]
+  ],
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-custom-elements'
   ]
 
-}
+};

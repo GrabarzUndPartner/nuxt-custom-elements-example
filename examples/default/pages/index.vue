@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <img class="logo" src="@/assets/logo.svg">
+      <h1>
+        <img class="logo" src="@/assets/logo.svg" alt="Nuxt Custom-Elements">
+      </h1>
       <div class="links">
         <a
           href="https://nuxt-custom-elements.grabarzundpartner.dev/"
@@ -39,6 +41,18 @@
           </custom-element-example>
         </client-only>
       </fieldset>
+      <h2>See other interesting examples…</h2>
+      <div class="links">
+        <a
+          href="https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+          title="Documentation"
+        >
+          Build with Vuetify
+        </a>
+      </div>
     </div>
   </div>
 </template>

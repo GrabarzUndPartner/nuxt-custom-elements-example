@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": [
+    "@nuxtjs",
+    "plugin:nuxt/recommended"
+  ],
+  "plugins": [],
+  "rules": {
+    "semi": [
+      2,
+      "always"
+    ]
+  }
+}
