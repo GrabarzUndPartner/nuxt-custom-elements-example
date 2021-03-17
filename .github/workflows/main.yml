@@ -91,13 +91,13 @@ jobs:
           touch dist/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/
-          DIST_PATH: dist
+          DIST_PATH: ../../dist
       - name: BuildVuetify
         run: |
           npm run generate -- examples/vuetify
         env:
           BASE_URL: /nuxt-custom-elements-example/vuetify/
-          DIST_PATH: dist/vuetify
+          DIST_PATH: ../../dist/vuetify
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
