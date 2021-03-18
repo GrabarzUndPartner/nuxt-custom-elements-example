@@ -8,14 +8,6 @@
         </client-only>
       </div>
     </fieldset>
-    <div class="buttons">
-      <a
-        :href="`${$router.options.base}nuxt-custom-elements/example/`"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button--green"
-      >Open Nuxt Custom-Elements example export…</a>
-    </div>
   </div>
 </template>
 
