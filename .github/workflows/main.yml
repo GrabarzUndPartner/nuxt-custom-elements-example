@@ -92,12 +92,43 @@ jobs:
         env:
           BASE_URL: /nuxt-custom-elements-example/
           DIST_PATH: ../../dist
+
+      # vue-i18n
+      - name: BuildVueI18n
+        run: |
+          npm run generate -- examples/vue-i18n
+          unlink ../../dist/vue-i18n/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/vue-i18n/
+          DIST_PATH: ../../dist/vue-i18n
+
+      # vue-router
+      - name: BuildVueRouter
+        run: |
+          npm run generate -- examples/vue-router
+          unlink ../../dist/vue-router/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/vue-router/
+          DIST_PATH: ../../dist/vue-router
+
+      # vuetify
       - name: BuildVuetify
         run: |
           npm run generate -- examples/vuetify
+          unlink ../../dist/vuetify/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/vuetify/
           DIST_PATH: ../../dist/vuetify
+
+      # vuex
+      - name: BuildVuex
+        run: |
+          npm run generate -- examples/vuex
+          unlink ../../dist/vuex/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/vuex/
+          DIST_PATH: ../../dist/vuex
+
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:

@@ -1,5 +1,5 @@
 import pkg from '../../package.json';
-import vuetifyOptions from './plugins/vuetify.options';
+import i18nOptions from './plugins/i18n.options';
 
 export default {
   target: 'static',
@@ -34,24 +34,24 @@ export default {
         name: 'Example',
         tags: [
           {
-            name: 'CustomElementVuetify',
-            path: '@/entries/Vuetify'
+            name: 'CustomElementVueI18n',
+            path: '@/entries/VueI18n'
           }
         ]
       }
     ]
   },
 
+  i18n: i18nOptions,
+
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/stylelint-module',
-
-    // Vuetify with options
-    ['@nuxtjs/vuetify', vuetifyOptions]
+    '@nuxtjs/stylelint-module'
   ],
 
   modules: [
-    'nuxt-custom-elements'
+    'nuxt-custom-elements',
+    'nuxt-i18n'
   ]
 
 };

@@ -17,6 +17,7 @@
     "core-js": "3.9.1",
     "nuxt": "2.15.3",
     "nuxt-custom-elements": "1.6.2",
+    "nuxt-i18n": "^6.21.1",
     "vue-meta": "^2.4.0"
   },
   "devDependencies": {

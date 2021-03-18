@@ -44,13 +44,15 @@
       <h2>See other interesting examples…</h2>
       <div class="links">
         <a
-          href="https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/"
+          v-for="example in examples"
+          :key="example.title"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
-          title="Documentation"
+          class="button--grey"
+          v-bind="example"
         >
-          Build with Vuetify
+          <span v-if="example.icon" class="icon"><img :src="example.icon"></span>
+          {{ example.title }}
         </a>
       </div>
     </div>
@@ -66,6 +68,33 @@ Vue.config.ignoredElements = [
 ];
 
 export default {
+  data () {
+    return {
+      examples: [
+        {
+          icon: require('@/assets/icons/vue.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vue-router/',
+          title: 'Build with Vue-Router'
+        },
+        {
+          icon: require('@/assets/icons/i18n.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vue-i18n/',
+          title: 'Build with Vue-i18n'
+        },
+        {
+          icon: require('@/assets/icons/vue.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuex/',
+          title: 'Build with Vuex Store'
+        },
+        {
+          icon: require('@/assets/icons/vuetify.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/',
+          title: 'Build with Vuetify'
+        }
+      ]
+    };
+  },
+
   created () {
     this.$registerCustomElementsEntry('Example');
   }
@@ -74,18 +103,6 @@ export default {
 </script>
 
 <style>
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 0 15px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .container > div {
   width: 100%;
 }
