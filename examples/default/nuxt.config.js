@@ -6,7 +6,8 @@ export default {
   srcDir: __dirname,
 
   generate: {
-    dir: process.env.DIST_PATH || '../../dist'
+    dir: process.env.DIST_PATH || '../../dist',
+    crawler: false
   },
 
   router: {
