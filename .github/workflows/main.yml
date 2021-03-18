@@ -93,6 +93,24 @@ jobs:
           BASE_URL: /nuxt-custom-elements-example/
           DIST_PATH: ../../dist
 
+      # tailwind-css
+      - name: BuildTailwindCss
+        run: |
+          npm run generate -- examples/tailwind-css
+          unlink dist/tailwind-css/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/tailwind-css/
+          DIST_PATH: ../../dist/tailwind-css
+
+      # vuetify
+      - name: BuildVuetify
+        run: |
+          npm run generate -- examples/vuetify
+          unlink dist/vuetify/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/vuetify/
+          DIST_PATH: ../../dist/vuetify
+
       # vue-i18n
       - name: BuildVueI18n
         run: |
@@ -110,15 +128,6 @@ jobs:
         env:
           BASE_URL: /nuxt-custom-elements-example/vue-router/
           DIST_PATH: ../../dist/vue-router
-
-      # vuetify
-      - name: BuildVuetify
-        run: |
-          npm run generate -- examples/vuetify
-          unlink dist/vuetify/.nojekyll
-        env:
-          BASE_URL: /nuxt-custom-elements-example/vuetify/
-          DIST_PATH: ../../dist/vuetify
 
       # vuex
       - name: BuildVuex

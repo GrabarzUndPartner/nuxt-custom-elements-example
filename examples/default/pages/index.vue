@@ -120,6 +120,6 @@ export default {
 
 fieldset {
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 </style>
