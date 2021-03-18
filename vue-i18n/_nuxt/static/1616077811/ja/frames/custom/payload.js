@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ja/frames/custom", {data:[{}],fetch:{},mutations:void 0});
