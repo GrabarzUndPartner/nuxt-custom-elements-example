@@ -1,5 +1,6 @@
 {
   "name": "nuxt-custom-elements-example",
+  "description": "Examples for Nuxt Custom-Elements.",
   "version": "1.0.0",
   "private": true,
   "scripts": {
