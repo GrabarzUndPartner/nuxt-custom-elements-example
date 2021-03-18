@@ -94,7 +94,7 @@ export default {
         {
           icon: require('@/assets/icons/vue.png'),
           href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuex/',
-          title: 'Build with Vuex Store'
+          title: 'Build with Vuex'
         }
       ]
     };
