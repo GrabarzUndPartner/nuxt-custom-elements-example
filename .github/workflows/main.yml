@@ -97,7 +97,7 @@ jobs:
       - name: BuildVueI18n
         run: |
           npm run generate -- examples/vue-i18n
-          unlink ../../dist/vue-i18n/.nojekyll
+          unlink dist/vue-i18n/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/vue-i18n/
           DIST_PATH: ../../dist/vue-i18n
@@ -106,7 +106,7 @@ jobs:
       - name: BuildVueRouter
         run: |
           npm run generate -- examples/vue-router
-          unlink ../../dist/vue-router/.nojekyll
+          unlink dist/vue-router/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/vue-router/
           DIST_PATH: ../../dist/vue-router
@@ -115,7 +115,7 @@ jobs:
       - name: BuildVuetify
         run: |
           npm run generate -- examples/vuetify
-          unlink ../../dist/vuetify/.nojekyll
+          unlink dist/vuetify/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/vuetify/
           DIST_PATH: ../../dist/vuetify
@@ -124,7 +124,7 @@ jobs:
       - name: BuildVuex
         run: |
           npm run generate -- examples/vuex
-          unlink ../../dist/vuex/.nojekyll
+          unlink dist/vuex/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/vuex/
           DIST_PATH: ../../dist/vuex
