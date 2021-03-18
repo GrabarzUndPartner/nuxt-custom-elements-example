@@ -4,7 +4,7 @@
       <h1>
         <img class="logo" src="@/assets/logo.svg" alt="Nuxt Custom-Elements">
       </h1>
-      <div class="links">
+      <div class="buttons">
         <a
           href="https://nuxt-custom-elements.grabarzundpartner.dev/"
           target="_blank"
@@ -42,7 +42,7 @@
         </client-only>
       </fieldset>
       <h2>See other interesting examples…</h2>
-      <div class="links">
+      <div class="buttons">
         <a
           v-for="example in examples"
           :key="example.title"
@@ -72,6 +72,16 @@ export default {
     return {
       examples: [
         {
+          icon: require('@/assets/icons/vuetify.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/',
+          title: 'Build with Vuetify'
+        },
+        {
+          icon: require('@/assets/icons/tailwindcss.png'),
+          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/tailwind-css/',
+          title: 'Build with TailwindCSS'
+        },
+        {
           icon: require('@/assets/icons/vue.png'),
           href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vue-router/',
           title: 'Build with Vue-Router'
@@ -85,11 +95,6 @@ export default {
           icon: require('@/assets/icons/vue.png'),
           href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuex/',
           title: 'Build with Vuex Store'
-        },
-        {
-          icon: require('@/assets/icons/vuetify.png'),
-          href: 'https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/',
-          title: 'Build with Vuetify'
         }
       ]
     };
@@ -105,10 +110,6 @@ export default {
 <style>
 .container > div {
   width: 100%;
-}
-
-.links {
-  margin: 20px 0;
 }
 
 .logo {

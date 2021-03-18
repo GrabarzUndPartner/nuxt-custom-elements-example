@@ -4,7 +4,7 @@
       <legend>Custom-Element Component</legend>
       <div>
         <client-only>
-          <custom-element-vuex />
+          <custom-element-tailwind-css />
         </client-only>
       </div>
     </fieldset>
@@ -24,7 +24,7 @@
 import Vue from 'vue';
 
 Vue.config.ignoredElements = [
-  'custom-element-vuex'
+  'custom-element-tailwind-css'
 ];
 
 export default {

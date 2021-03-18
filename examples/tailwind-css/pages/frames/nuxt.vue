@@ -3,9 +3,7 @@
     <fieldset>
       <legend>Nuxt Component</legend>
       <div>
-        <client-only>
-          <Example />
-        </client-only>
+        <Example />
       </div>
     </fieldset>
   </div>

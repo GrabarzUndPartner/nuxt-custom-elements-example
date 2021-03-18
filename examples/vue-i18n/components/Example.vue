@@ -4,7 +4,7 @@
       <span>Locales:</span>
       <ul>
         <li v-for="link in links" :key="link.title">
-          <nuxt-link v-if="$nuxt" :to="link.to" :title="link.title">
+          <nuxt-link v-if="$nuxt" :to="switchLocalePath(link.code)" :title="link.title">
             {{ link.title }}
           </nuxt-link>
           <a v-else :class="link.class" :title="link.title" @click="$event.preventDefault(); $i18n.locale = link.code">
@@ -31,8 +31,7 @@ export default {
         return {
           code,
           class: code === this.$i18n.locale ? 'router-link-exact-active router-link-active' : '',
-          title: name,
-          to: this.switchLocalePath(code)
+          title: name
         };
       });
     }

@@ -23,19 +23,44 @@
 </template>
 
 <script>
-import { createRouter, getViewKeys } from '../plugins/vueRouter';
+
+import ViewIndex from '@/router-views/index.vue';
+import View1 from '@/router-views/view-1.vue';
+import View2 from '@/router-views/view-2.vue';
+import View3 from '@/router-views/view-3.vue';
+import { createRouter } from '../plugins/vueRouter';
+
+const routes = [
+  {
+    title: 'Home',
+    path: '/',
+    component: ViewIndex
+  },
+  {
+    title: 'View 1',
+    path: '/view-1',
+    component: View1
+  },
+  {
+    title: 'View 2',
+    path: '/view-2',
+    component: View2
+  },
+  {
+    title: 'View 3',
+    path: '/view-3',
+    component: View3
+  }
+];
 
 export default {
-  name: 'CustomElementRouterView',
-  router: createRouter(),
+  router: createRouter(routes),
   computed: {
     links () {
-      const keys = getViewKeys();
-      return this.$router.options.routes.map((path, index) => {
+      return this.$router.options.routes.map((route) => {
         return {
-          // class: key === this.$i18n.locale ? 'router-link-exact-active router-link-active' : '',
-          title: keys[index],
-          to: path
+          title: routes.find(({ path }) => route.path === path).title,
+          to: route
         };
       });
     }
@@ -79,6 +104,7 @@ ul {
   display: flex;
   flex: 1;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 

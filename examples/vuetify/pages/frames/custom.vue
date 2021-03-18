@@ -8,6 +8,14 @@
         </client-only>
       </div>
     </fieldset>
+    <div class="buttons">
+      <a
+        :href="`${$router.options.base}nuxt-custom-elements/example/`"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--green"
+      >Open Nuxt Custom-Elements example export…</a>
+    </div>
   </div>
 </template>
 
@@ -25,13 +33,25 @@ export default {
       isDev: process.env.NODE_ENV === 'development'
     };
   },
+
   head () {
     const script = [];
-    !this.isDev && script.push({
-      src: `${this.$router.options.base}nuxt-custom-elements/example/example.js`, async: true, defer: true
-    });
+    if (!this.isDev) {
+      script.push({
+        type: 'text/javascript',
+        innerHTML: `window.customPublicPath = '${this.$router.options.base}nuxt-custom-elements/example/';`,
+        body: true
+      }, {
+        type: 'text/javascript',
+        src: `${this.$router.options.base}nuxt-custom-elements/example/example.js`,
+        async: true,
+        defer: true,
+        body: true
+      });
+    }
     return {
-      script
+      script,
+      __dangerouslyDisableSanitizers: ['script']
     };
   },
   created () {

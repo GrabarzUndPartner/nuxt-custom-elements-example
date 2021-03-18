@@ -5,8 +5,7 @@ export default {
   srcDir: __dirname,
 
   generate: {
-    dir: process.env.DIST_PATH || '../../dist',
-    crawler: false
+    dir: process.env.DIST_PATH || '../../dist'
   },
 
   router: {
@@ -29,23 +28,32 @@ export default {
   },
 
   customElements: {
-    webpackPublicPathInject: () => global.customPublicPath,
     entries: [
       {
         name: 'Example',
         tags: [
           {
-            name: 'CustomElementVueRouter',
-            path: '@/entries/VueRouter'
+            name: 'CustomElementTailwindCss',
+            path: '@/entries/TailwindCss'
           }
         ]
       }
     ]
   },
 
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    jit: false,
+    exposeConfig: false,
+    config: {}
+  },
+
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+
+    '@nuxtjs/tailwindcss'
   ],
 
   modules: [
