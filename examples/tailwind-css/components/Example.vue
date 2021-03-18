@@ -30,6 +30,7 @@
 <style lang="postcss" scoped>
 .example > div {
   margin: 0 auto;
+  text-align: center;
 }
 
 .badge {

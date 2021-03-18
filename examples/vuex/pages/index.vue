@@ -2,7 +2,7 @@
   <div class="frame-preview">
     <a
       class="back-link"
-      :href="`${$router.options.base}`"
+      :href="`${$router.options.base}../`"
       rel="noopener noreferrer"
     ><img src="@/../default/assets/icons/arrow-left.svg">Back to Overview</a>
     <iframe src="./frames/nuxt" />
