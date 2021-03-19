@@ -46,6 +46,7 @@ export default {
   i18n: i18nOptions,
 
   buildModules: [
+    '@nuxt/postcss8',
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module'
   ],
