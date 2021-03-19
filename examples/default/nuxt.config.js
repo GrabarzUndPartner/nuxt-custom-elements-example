@@ -1,7 +1,6 @@
 import pkg from '../../package.json';
 
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   srcDir: __dirname,
 
@@ -14,16 +13,15 @@ export default {
     base: process.env.BASE_URL
   },
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: pkg.name,
+    title: 'Examples - Nuxt Custom-Elements',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -50,13 +48,11 @@ export default {
     ]
   },
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module'
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-custom-elements'
   ]

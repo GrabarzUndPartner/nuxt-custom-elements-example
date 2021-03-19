@@ -42,13 +42,29 @@ button {
   margin: 20px auto;
 }
 
-.buttons > * {
-  margin-bottom: 15px;
-  margin-left: 15px;
+.buttons:last-child {
+  margin-bottom: 0;
 }
 
-.buttons > *:first-child {
-  margin-left: 0;
+.buttons > * {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .buttons > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .buttons > * {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  .buttons > *:first-child {
+    margin-left: 0;
+  }
 }
 
 .container {
@@ -110,7 +126,7 @@ fieldset legend {
 
 .preview-link,
 .back-link {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: calc(15 / 414 * 100vw) calc(10 / 414 * 100vw);
@@ -118,6 +134,7 @@ fieldset legend {
   font-weight: bold;
   color: white;
   text-align: center;
+  text-decoration: none;
   background: #3b8070;
 }
 
@@ -139,8 +156,8 @@ fieldset legend {
 .preview-link > img,
 .back-link > img {
   display: inline-block;
-  width: calc(22 / 16 * 1em);
-  margin-right: 5px;
+  width: calc(18 / 16 * 1em);
+  margin-right: calc(5 / 16 * 1em);
   vertical-align: bottom;
 }
 
