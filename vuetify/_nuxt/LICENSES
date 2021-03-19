@@ -11,6 +11,19 @@
  */
 
 
+/*!
+ * vue-client-only v2.0.0
+ * (c) 2019-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+/*!
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+
 /*! (c) Andrea Giammarchi @webreflection ISC */
 
 /*! ../../../directives/resize */
@@ -3144,16 +3157,3 @@
   * (c) 2021 Karol Fabjańczuk
   * @license MIT
   */
-
-
-/*!
- * vue-client-only v2.0.0
- * (c) 2019-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
-
-/*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
