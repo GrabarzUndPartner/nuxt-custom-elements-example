@@ -5,7 +5,7 @@
  */
 
 /*!
- * vue-i18n v8.24.3 
+ * vue-i18n v8.24.4 
  * (c) 2021 kazuya kawaguchi
  * Released under the MIT License.
  */
@@ -15,6 +15,15 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
+
+
+/*! (c) Andrea Giammarchi @webreflection ISC */
+
+/**
+  * vue-custom-element v3.3.0
+  * (c) 2021 Karol Fabjańczuk
+  * @license MIT
+  */
 
 
 /*!
@@ -43,12 +52,3 @@
  * Copyright(c) 2015 Douglas Christopher Wilson
  * MIT Licensed
  */
-
-
-/*! (c) Andrea Giammarchi @webreflection ISC */
-
-/**
-  * vue-custom-element v3.3.0
-  * (c) 2021 Karol Fabjańczuk
-  * @license MIT
-  */
