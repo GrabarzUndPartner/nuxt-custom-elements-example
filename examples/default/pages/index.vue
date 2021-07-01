@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="custom-elements-example__container">
     <div>
       <h1>
         <img class="logo" src="@/assets/logo.svg" alt="Nuxt Custom-Elements">
@@ -33,7 +33,7 @@
           GitHub (Example)
         </a>
       </div>
-      <fieldset>
+      <fieldset class="custom-elements-example__fieldset">
         <legend>Example</legend>
         <client-only>
           <custom-element-example title="Example Prop. Title">
@@ -118,7 +118,7 @@ export default {
   max-width: 640px;
 }
 
-fieldset {
+.custom-elements-example__fieldset {
   margin: 0 auto;
   margin-top: 20px;
 }

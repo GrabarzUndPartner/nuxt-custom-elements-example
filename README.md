@@ -24,6 +24,7 @@ $ npm install
 # - vue-router 
 # - vuetify 
 # - vuex
+# - external
 $ npm run dev -- examples/default
 
 # build for production and launch server

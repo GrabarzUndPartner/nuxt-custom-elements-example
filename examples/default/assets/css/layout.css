@@ -68,7 +68,7 @@ button {
   }
 }
 
-.container {
+.custom-elements-example__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,8 +101,7 @@ a {
   background-color: #35495e;
 }
 
-fieldset,
-.container > fieldset {
+.custom-elements-example__fieldset {
   width: 100%;
   max-width: 640px;
   padding: 30px;
@@ -113,7 +112,7 @@ fieldset,
   border-radius: 4px;
 }
 
-fieldset legend {
+.custom-elements-example__fieldset legend {
   padding: 5px 15px;
   margin-bottom: 30px;
   font-weight: bold;

@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <fieldset>
+  <div class="custom-elements-example__container">
+    <fieldset class="custom-elements-example__fieldset">
       <legend>Nuxt Component</legend>
       <div>
         <client-only>
