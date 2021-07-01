@@ -28,28 +28,10 @@ export default {
     ]
   },
 
-  // customElements: {
-  //   entries: [
-  //     {
-  //       name: 'Example',
-  //       tags: [
-  //         {
-  //           name: 'CustomElementExternal',
-  //           path: '@/entries/External'
-  //         }
-  //       ]
-  //     }
-  //   ]
-  // },
-
   buildModules: [
     '@nuxt/postcss8',
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module'
-  ],
-
-  modules: [
-    'nuxt-custom-elements'
   ]
 
 };
