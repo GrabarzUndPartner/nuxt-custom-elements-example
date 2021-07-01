@@ -138,6 +138,15 @@ jobs:
           BASE_URL: /nuxt-custom-elements-example/vuex/
           DIST_PATH: ../../dist/vuex
 
+      # external
+      - name: BuildExternal
+        run: |
+          npm run generate -- examples/external
+          unlink dist/vuex/.nojekyll
+        env:
+          BASE_URL: /nuxt-custom-elements-example/external/
+          DIST_PATH: ../../dist/external
+
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
