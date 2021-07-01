@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.3](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.2...v1.0.3) (2021-07-01)
+
+
+### Bug Fixes
+
+* **external:** fix style overrides ([e4d9a84](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/commit/e4d9a84dabc032c840f8f72962986ed6e2ebf7ad))
+
 ## [1.0.2](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.1...v1.0.2) (2021-03-18)
 
 
