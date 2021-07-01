@@ -1,3 +1,12 @@
+/*! (c) Andrea Giammarchi @webreflection ISC */
+
+/**
+  * vue-custom-element v3.3.0
+  * (c) 2021 Karol Fabjańczuk
+  * @license MIT
+  */
+
+
 /*!
   * vue-router v3.5.2
   * (c) 2021 Evan You
@@ -15,15 +24,6 @@
  * (c) 2021 Evan You
  * @license MIT
  */
-
-
-/*! (c) Andrea Giammarchi @webreflection ISC */
-
-/**
-  * vue-custom-element v3.3.0
-  * (c) 2021 Karol Fabjańczuk
-  * @license MIT
-  */
 
 
 /*!
