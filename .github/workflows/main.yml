@@ -142,7 +142,7 @@ jobs:
       - name: BuildExternal
         run: |
           npm run generate -- examples/external
-          unlink dist/vuex/.nojekyll
+          unlink dist/external/.nojekyll
         env:
           BASE_URL: /nuxt-custom-elements-example/external/
           DIST_PATH: ../../dist/external
