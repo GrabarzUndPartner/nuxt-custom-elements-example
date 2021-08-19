@@ -1,10 +1,14 @@
-/*! (c) Andrea Giammarchi @webreflection ISC */
+/*!
+ * vue-client-only v0.0.0-semantic-release
+ * (c) 2021-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
 
-/**
-  * vue-custom-element v3.3.0
-  * (c) 2021 Karol Fabjańczuk
-  * @license MIT
-  */
+/*!
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
 
 
 /*!
@@ -26,14 +30,10 @@
  */
 
 
-/*!
- * vue-client-only v0.0.0-semantic-release
- * (c) 2021-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
+/*! (c) Andrea Giammarchi @webreflection ISC */
 
-/*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
+/**
+  * vue-custom-element v3.3.0
+  * (c) 2021 Karol Fabjańczuk
+  * @license MIT
+  */
