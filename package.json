@@ -17,7 +17,7 @@
     "@nuxtjs/vuetify": "1.12.1",
     "core-js": "3.18.0",
     "nuxt": "2.15.8",
-    "nuxt-custom-elements": "1.7.4",
+    "nuxt-custom-elements": "1.7.5",
     "nuxt-i18n": "6.28.1",
     "vue-meta": "2.4.0"
   },
