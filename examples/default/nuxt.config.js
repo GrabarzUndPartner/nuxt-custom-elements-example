@@ -1,7 +1,6 @@
 import pkg from '../../package.json';
 
 export default {
-  target: 'static',
   srcDir: __dirname,
 
   generate: {

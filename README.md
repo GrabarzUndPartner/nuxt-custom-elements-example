@@ -32,7 +32,8 @@ $ npm run build -- examples/default
 $ npm run start -- examples/default
 
 # generate static project
-$ npm run generate -- examples/default
+$ npm run generate -- examples/default --target static
+$ npm run start -- examples/default --target static
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org) and [Nuxt Custom-Elements docs](https://github.com/GrabarzUndPartner/nuxt-custom-elements).

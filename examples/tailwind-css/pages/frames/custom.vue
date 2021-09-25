@@ -49,7 +49,7 @@ export default {
     };
   },
   created () {
-    this.isDev && this.$registerCustomElementsEntry('Example');
+    this.isDev && this.$customElements.registerEntry('Example');
   }
 };
 

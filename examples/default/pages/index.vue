@@ -105,7 +105,7 @@ export default {
   },
 
   created () {
-    this.$registerCustomElementsEntry('Example');
+    this.$customElements.registerEntry('Example');
   }
 };
 
