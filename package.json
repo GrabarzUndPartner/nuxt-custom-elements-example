@@ -35,7 +35,7 @@
     "eslint-plugin-vue": "7.18.0",
     "stylelint": "13.13.1",
     "stylelint-config-recess-order": "2.5.0",
-    "stylelint-config-standard": "22.0.0",
+    "stylelint-config-standard": "23.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.2.14"
   }
 }
