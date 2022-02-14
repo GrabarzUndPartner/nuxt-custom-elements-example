@@ -4,10 +4,7 @@
       <span>Locales:</span>
       <ul>
         <li v-for="link in links" :key="link.title">
-          <nuxt-link v-if="$nuxt" :to="switchLocalePath(link.code)" :title="link.title">
-            {{ link.title }}
-          </nuxt-link>
-          <a v-else :class="link.class" :title="link.title" @click="$event.preventDefault(); $i18n.locale = link.code">
+          <a :class="link.class" :title="link.title" @click="$event.preventDefault(); $i18n.locale = link.code">
             {{ link.title }}
           </a>
         </li>
@@ -43,12 +40,12 @@ export default {
 .example {
   padding: 10px;
   font-family:
-    'Source Sans Pro',
+    "Source Sans Pro",
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
+    "Segoe UI",
     Roboto,
-    'Helvetica Neue',
+    "Helvetica Neue",
     Arial,
     sans-serif;
   font-size: 16px;

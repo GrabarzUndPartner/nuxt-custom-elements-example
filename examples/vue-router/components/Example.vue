@@ -24,11 +24,11 @@
 
 <script>
 
+import { createRouter } from '../plugins/vueRouter';
 import ViewIndex from '@/router-views/index.vue';
 import View1 from '@/router-views/view-1.vue';
 import View2 from '@/router-views/view-2.vue';
 import View3 from '@/router-views/view-3.vue';
-import { createRouter } from '../plugins/vueRouter';
 
 const routes = [
   {
@@ -73,12 +73,12 @@ export default {
   position: relative;
   padding: 10px;
   font-family:
-    'Source Sans Pro',
+    "Source Sans Pro",
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
+    "Segoe UI",
     Roboto,
-    'Helvetica Neue',
+    "Helvetica Neue",
     Arial,
     sans-serif;
   font-size: 16px;

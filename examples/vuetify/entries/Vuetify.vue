@@ -29,6 +29,6 @@ export default {
 
 <style scoped>
 div {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 </style>
