@@ -6,17 +6,21 @@
   </div>
 </template>
 
+<script>
+export default {};
+</script>
+
 <style lang="postcss" scoped>
 .example {
   position: relative;
   padding: 10px;
   font-family:
-    'Source Sans Pro',
+    "Source Sans Pro",
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
+    "Segoe UI",
     Roboto,
-    'Helvetica Neue',
+    "Helvetica Neue",
     Arial,
     sans-serif;
   font-size: 16px;

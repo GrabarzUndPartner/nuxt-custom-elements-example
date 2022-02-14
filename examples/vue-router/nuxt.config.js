@@ -29,7 +29,9 @@ export default {
   },
 
   customElements: {
-    webpackPublicPathInject: () => global.customPublicPath,
+    webpack: {
+      publicPathInject: () => global.customPublicPath
+    },
     entries: [
       {
         name: 'Example',

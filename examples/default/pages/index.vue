@@ -33,7 +33,7 @@
           GitHub (Example)
         </a>
       </div>
-      <fieldset class="custom-elements-example__fieldset">
+      <fieldset class="custom-elements-example-fieldset">
         <legend>Example</legend>
         <client-only>
           <custom-element-example title="Example Prop. Title">
@@ -122,7 +122,7 @@ export default {
   max-width: 640px;
 }
 
-.custom-elements-example__fieldset {
+.custom-elements-example-fieldset {
   margin: 0 auto;
   margin-top: 20px;
 }

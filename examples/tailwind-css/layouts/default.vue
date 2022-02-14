@@ -6,5 +6,5 @@
 </template>
 
 <style>
-@import "@/../default/assets/css/layout.css";
+@import "@/../../default/assets/css/layout.css";
 </style>

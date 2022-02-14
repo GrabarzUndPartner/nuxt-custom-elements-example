@@ -2,5 +2,13 @@
   "extends": [
     "@nuxtjs"
   ],
-  "rangeStrategy": "pin"
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@nuxtjs/tailwindcss"
+      ],
+      "allowedVersions": "<5"
+    }
+  ]
 }

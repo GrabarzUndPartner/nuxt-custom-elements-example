@@ -3,7 +3,15 @@
     "stylelint-config-standard",
     "stylelint-config-recess-order"
   ],
+  "customSyntax": "postcss-html",
   "rules": {
+    "max-line-length": null,
+    "value-keyword-case": [
+      "lower",
+      {
+        "camelCaseSvgKeywords": true
+      }
+    ],
     "at-rule-no-unknown": [
       true,
       {
