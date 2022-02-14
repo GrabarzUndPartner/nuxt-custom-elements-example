@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.4](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.3...v1.0.4) (2022-02-14)
+
+
+### Bug Fixes
+
+* **update:** update dependencies ([66e6369](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/commit/66e63694bd3d886973f23304d947578dffeeafbd))
+
 ## [1.0.3](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.2...v1.0.3) (2021-07-01)
 
 
