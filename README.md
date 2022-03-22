@@ -10,12 +10,12 @@ For more information, see the [Usage section](https://nuxt-custom-elements.graba
 
 ## Usage
 
-The very first thing to do is to install.
+Install project.
 ```bash
 $ npm install
 ```
 
-Each example can be started both in `dev`, `server` and  `ssr`.  
+Each example can be started in `dev`, `server` and  `ssr`.  
 For this the path to the example must be given as argument (e.g. `npm run dev -- examples/default`). 
 
 The path specification must be specified in `dev`, `build`, `generate` and `start`.
