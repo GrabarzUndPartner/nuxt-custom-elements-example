@@ -10,7 +10,8 @@ For more information, see the [Usage section](https://nuxt-custom-elements.graba
 
 ## Usage
 
-Install project.
+First of all, the repository must be cloned and install dependencies with
+
 ```bash
 $ npm install
 ```
@@ -31,8 +32,6 @@ The path specification must be specified in `dev`, `build`, `generate` and `star
 | `examples/vuetify`      | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples#:~:text=last%20month-,vuetify,-fix(update)%3A%20update) |
 | `examples/vuex`         | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vuex)                                                   |
 | `examples/external`     | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/external)                                               |
-
-
 
 ### Development
 
