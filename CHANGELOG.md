@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.5](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.4...v1.0.5) (2022-04-16)
+
+
+### Bug Fixes
+
+* **update:** update for shadow dom ([68629a2](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/commit/68629a25b8bfe22ee2c3700aad82a779e6e01717))
+
 ## [1.0.4](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.3...v1.0.4) (2022-02-14)
 
 
