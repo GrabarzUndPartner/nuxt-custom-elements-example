@@ -49,6 +49,16 @@ export default {
             path: '@/entries/TailwindCss'
           }
         ]
+      },
+      {
+        name: 'ExampleShadow',
+        shadow: true,
+        tags: [
+          {
+            name: 'CustomElementTailwindCss',
+            path: '@/entries/TailwindCssShadow'
+          }
+        ]
       }
     ]
   },

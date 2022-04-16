@@ -41,6 +41,16 @@ export default {
             path: '@/entries/VueRouter'
           }
         ]
+      },
+      {
+        name: 'ExampleShadow',
+        shadow: true,
+        tags: [
+          {
+            name: 'CustomElementVueRouter',
+            path: '@/entries/VueRouter'
+          }
+        ]
       }
     ]
   },

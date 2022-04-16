@@ -39,6 +39,16 @@ export default {
             path: '@/entries/Vuetify'
           }
         ]
+      },
+      {
+        name: 'ExampleShadow',
+        shadow: true,
+        tags: [
+          {
+            name: 'CustomElementVuetify',
+            path: '@/entries/VuetifyShadow'
+          }
+        ]
       }
     ]
   },

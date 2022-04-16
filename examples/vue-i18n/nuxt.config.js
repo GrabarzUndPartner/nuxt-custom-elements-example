@@ -39,6 +39,16 @@ export default {
             path: '@/entries/VueI18n'
           }
         ]
+      },
+      {
+        name: 'ExampleShadow',
+        shadow: true,
+        tags: [
+          {
+            name: 'CustomElementVueI18n',
+            path: '@/entries/VueI18n'
+          }
+        ]
       }
     ]
   },

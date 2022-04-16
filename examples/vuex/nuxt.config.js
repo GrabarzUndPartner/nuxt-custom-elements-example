@@ -38,6 +38,16 @@ export default {
             path: '@/entries/Vuex'
           }
         ]
+      },
+      {
+        name: 'ExampleShadow',
+        shadow: true,
+        tags: [
+          {
+            name: 'CustomElementVuex',
+            path: '@/entries/Vuex'
+          }
+        ]
       }
     ]
   },

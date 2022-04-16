@@ -124,11 +124,16 @@ a {
   border-radius: 4px;
 }
 
-.preview-link,
+.preview-links {
+  display: flex;
+}
+
+.preview-links > * {
+  flex: 1;
+}
+
+.preview-links > *,
 .back-link {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   padding: calc(15 / 414 * 100vw) calc(10 / 414 * 100vw);
   font-size: calc(15 / 414 * 100vw);
   font-weight: bold;
@@ -138,8 +143,15 @@ a {
   background: #3b8070;
 }
 
+.preview-links,
+.back-link {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 @media (min-width: 576px) {
-  .preview-link,
+  .preview-links > *,
   .back-link {
     padding: 20px 15px;
     font-size: 16px;
@@ -153,7 +165,7 @@ a {
   background: #35495e;
 }
 
-.preview-link > img,
+.preview-links > * > img,
 .back-link > img {
   display: inline-block;
   width: calc(18 / 16 * 1em);

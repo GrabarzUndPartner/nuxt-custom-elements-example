@@ -9,7 +9,6 @@ import Vue from 'vue';
 import VueMeta from 'vue-meta';
 import Example from '@/components/Example';
 import vuetify from '@/plugins/vuetify';
-import 'vuetify/dist/vuetify.min.css';
 
 Vue.use(VueMeta);
 

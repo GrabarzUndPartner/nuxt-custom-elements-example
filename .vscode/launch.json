@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug (build) (TailwindCSS)",
+      "runtimeVersion": "16.14.2",
+      "runtimeArgs": [
+        "--inspect"
+      ],
+      "program": "${workspaceFolder}/node_modules/.bin/nuxt",
+      "outputCapture": "std",
+      "args": [
+        "build",
+        "--",
+        "examples/tailwind-css"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug (build) (vuetify)",
+      "runtimeVersion": "16.14.2",
+      "runtimeArgs": [
+        "--inspect"
+      ],
+      "program": "${workspaceFolder}/node_modules/.bin/nuxt",
+      "outputCapture": "std",
+      "args": [
+        "build",
+        "--",
+        "examples/vuetify"
+      ]
+    }
+  ]
+}
