@@ -25,13 +25,12 @@ The path specification must be specified in `dev`, `build`, `generate` and `star
 
 | Path                    |                                                                                                                                                       |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `examples/default`      | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/default)                                                |
-| `examples/tailwind-css` | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/tailwind-css)                                           |
-| `examples/vue-i18n`     | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vue-i18n)                                               |
-| `examples/vue-router`   | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vue-router)                                             |
-| `examples/vuetify`      | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples#:~:text=last%20month-,vuetify,-fix(update)%3A%20update) |
-| `examples/vuex`         | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vuex)                                                   |
-| `examples/external`     | [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/external)                                               |
+| `examples/tailwind-css` | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/tailwind-css/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/tailwind-css)                                           |
+| `examples/vue-i18n`     | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/vue-i18n/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vue-i18n)                                               |
+| `examples/vue-router`   | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/vue-router/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vue-router)                                             |
+| `examples/vuetify`      | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuetify/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples#:~:text=last%20month-,vuetify,-fix(update)%3A%20update) |
+| `examples/vuex`         | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/vuex/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/vuex)                                                   |
+| `examples/external`     | [Preview](https://grabarzundpartner.github.io/nuxt-custom-elements-example/external/) - [Source](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/tree/main/examples/external)                                               |
 
 ### Development
 
