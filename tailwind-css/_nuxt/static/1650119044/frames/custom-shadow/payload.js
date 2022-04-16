@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/frames/custom-shadow", {data:[{}],fetch:{},mutations:void 0});

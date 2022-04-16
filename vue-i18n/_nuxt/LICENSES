@@ -1,10 +1,21 @@
-/*! (c) Andrea Giammarchi @webreflection ISC */
-
-/**
-  * vue-custom-element v3.3.0
-  * (c) 2021 Karol Fabjańczuk
+/*!
+  * vue-router v3.5.3
+  * (c) 2021 Evan You
   * @license MIT
   */
+
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
 
 
 /*!
@@ -26,21 +37,10 @@
  */
 
 
-/*!
-  * vue-router v3.5.3
-  * (c) 2021 Evan You
+/*! (c) Andrea Giammarchi @webreflection ISC */
+
+/**
+  * vue-custom-element v3.3.0
+  * (c) 2021 Karol Fabjańczuk
   * @license MIT
   */
-
-/*!
- * Vue.js v2.6.14
- * (c) 2014-2021 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * cookie
- * Copyright(c) 2012-2014 Roman Shtylman
- * Copyright(c) 2015 Douglas Christopher Wilson
- * MIT Licensed
- */
