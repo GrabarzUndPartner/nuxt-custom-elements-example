@@ -1,6 +1,6 @@
 /*!
-  * vue-router v3.5.3
-  * (c) 2021 Evan You
+  * vue-router v3.5.4
+  * (c) 2022 Evan You
   * @license MIT
   */
 
@@ -18,15 +18,6 @@
  */
 
 
-/*! (c) Andrea Giammarchi @webreflection ISC */
-
-/**
-  * vue-custom-element v3.3.0
-  * (c) 2021 Karol Fabjańczuk
-  * @license MIT
-  */
-
-
 /*!
  * vue-client-only v0.0.0-semantic-release
  * (c) 2021-present egoist <0x142857@gmail.com>
@@ -34,7 +25,7 @@
  */
 
 /*!
- * vue-i18n v8.27.0 
+ * vue-i18n v8.27.1 
  * (c) 2022 kazuya kawaguchi
  * Released under the MIT License.
  */
@@ -44,3 +35,12 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
+
+
+/*! (c) Andrea Giammarchi @webreflection ISC */
+
+/**
+  * vue-custom-element v3.3.0
+  * (c) 2021 Karol Fabjańczuk
+  * @license MIT
+  */
