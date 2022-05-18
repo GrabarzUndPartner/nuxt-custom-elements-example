@@ -40,7 +40,7 @@ export default {
           }
         ],
         webpackExtend (config) {
-          config.output.plugins.push(new WebpackDynamicPublicPathPlugin({
+          config.plugins.push(new WebpackDynamicPublicPathPlugin({
             externalPublicPath: 'window.cutomPublicPath'
           }));
           return config;
@@ -56,7 +56,7 @@ export default {
           }
         ],
         webpackExtend (config) {
-          config.output.plugins.push(new WebpackDynamicPublicPathPlugin({
+          config.plugins.push(new WebpackDynamicPublicPathPlugin({
             externalPublicPath: 'window.cutomPublicPath'
           }));
           return config;
