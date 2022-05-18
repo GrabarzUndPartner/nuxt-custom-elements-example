@@ -42,7 +42,7 @@
         :key="item"
       >
         <v-card flat>
-          <v-card-text v-text="text" />
+          <v-card-text>{{ text }}</v-card-text>
         </v-card>
       </v-tab-item>
     </v-tabs-items>
