@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.6](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.5...v1.0.6) (2022-05-18)
+
+
+### Bug Fixes
+
+* **vue-router:** fix deprecated webpack configuration ([75955eb](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/commit/75955eb661827f281557d8bcd16fe03fce716d9f))
+
 ## [1.0.5](https://github.com/GrabarzUndPartner/nuxt-custom-elements-example/compare/v1.0.4...v1.0.5) (2022-04-16)
 
 
