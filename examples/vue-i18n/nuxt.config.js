@@ -63,7 +63,7 @@ export default {
 
   modules: [
     'nuxt-custom-elements',
-    'nuxt-i18n'
+    '@nuxtjs/i18n'
   ]
 
 };

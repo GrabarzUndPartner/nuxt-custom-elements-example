@@ -1,3 +1,4 @@
+import WebpackDynamicPublicPathPlugin from 'webpack-dynamic-public-path';
 import pkg from '../../package.json';
 
 export default {
@@ -29,9 +30,6 @@ export default {
   },
 
   customElements: {
-    webpack: {
-      publicPathInject: () => global.customPublicPath
-    },
     entries: [
       {
         name: 'Example',
@@ -40,7 +38,13 @@ export default {
             name: 'CustomElementVueRouter',
             path: '@/entries/VueRouter'
           }
-        ]
+        ],
+        webpackExtend (config) {
+          config.output.plugins.push(new WebpackDynamicPublicPathPlugin({
+            externalPublicPath: 'window.cutomPublicPath'
+          }));
+          return config;
+        }
       },
       {
         name: 'ExampleShadow',
@@ -50,7 +54,13 @@ export default {
             name: 'CustomElementVueRouter',
             path: '@/entries/VueRouter'
           }
-        ]
+        ],
+        webpackExtend (config) {
+          config.output.plugins.push(new WebpackDynamicPublicPathPlugin({
+            externalPublicPath: 'window.cutomPublicPath'
+          }));
+          return config;
+        }
       }
     ]
   },
