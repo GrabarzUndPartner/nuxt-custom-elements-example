@@ -22,7 +22,7 @@
     "nuxt-custom-elements": "1.9.1",
     "vue-meta": "2.4.0",
     "webpack-dynamic-public-path": "^1.0.8",
-    "postcss-nesting": "10.1.9",
+    "postcss-nesting": "10.1.10",
     "tailwindcss": "3.1.4"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "@nuxtjs/stylelint-module": "4.1.0",
     "@nuxtjs/tailwindcss": "4.2.1",
     "autoprefixer": "10.4.7",
-    "eslint": "8.18.0",
+    "eslint": "8.19.0",
     "eslint-plugin-nuxt": "3.2.0",
     "eslint-plugin-vue": "9.1.1",
     "husky": "8.0.1",
