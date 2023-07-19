@@ -18,7 +18,7 @@
     "@nuxtjs/i18n": "^7.2.2",
     "@nuxtjs/vuetify": "1.12.3",
     "core-js": "3.23.5",
-    "nuxt": "2.15.8",
+    "nuxt": "3.6.5",
     "nuxt-custom-elements": "1.9.1",
     "vue-meta": "2.4.0",
     "webpack-dynamic-public-path": "^1.0.8",
