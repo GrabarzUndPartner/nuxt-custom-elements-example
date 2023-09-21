@@ -7,10 +7,14 @@
   },
   "extends": [
     "@nuxtjs",
-    "plugin:nuxt/recommended"
+    "plugin:nuxt/recommended",
+    "prettier"
   ],
-  "plugins": [],
+  "plugins": [
+    "prettier"
+  ],
   "rules": {
+    "prettier/prettier": "error",
     "semi": [
       2,
       "always"
