@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es2015",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nuxt-custom-elements-example/default": [
+        "../packages/default"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

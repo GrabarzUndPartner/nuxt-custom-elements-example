@@ -16,12 +16,17 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     },
-    "eslint.alwaysShowStatus": true,
     "eslint.validate": [
       "javascript",
       "javascriptreact",
       "vue",
       "html"
+    ],
+    "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "vue"
     ],
     "files.exclude": {
       "docs/": true,
@@ -58,33 +63,7 @@
       "@": "${workspaceRoot}/example",
       "@@": "${workspaceRoot}"
     },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "vetur.format.enable": false,
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
     "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
     "workbench.settings.enableNaturalLanguageSearch": false
-  },
-  "extensions": {
-    "recommendations": [
-      "stylelint.vscode-stylelint",
-      "dbaeumer.vscode-eslint",
-      "octref.vetur",
-      "christian-kohler.path-intellisense",
-      "pflannery.vscode-versionlens",
-      "eamodio.gitlens",
-      "EditorConfig.EditorConfig",
-      "codezombiech.gitignore",
-      "mrmlnc.vscode-attrs-sorter",
-      "steoates.autoimport",
-      "wayou.vscode-todo-highlight",
-      "yzhang.markdown-all-in-one",
-      "dariofuzinato.vue-peek",
-      "formulahendry.auto-close-tag",
-      "formulahendry.auto-rename-tag",
-      "jcbuisson.vue",
-      "naumovs.color-highlight",
-      "csstools.postcss"
-    ]
   }
 }

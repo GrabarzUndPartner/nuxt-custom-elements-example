@@ -5,8 +5,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "nuxt-speedkit/*": [
-        "lib/*"
+      "@nuxt-custom-elements-example/default": [
+        "./packages/default"
       ],
       "@/*": [
         "example/*"
