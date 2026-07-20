@@ -14,15 +14,15 @@ jobs:
         node: [14, 16]
 
     steps:
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3.9.1
         with:
           node-version: ${{ matrix.node }}
 
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.7.0
 
       - name: cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v3.5.0
         id: cache
         with:
           path: |
